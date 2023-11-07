@@ -5,7 +5,7 @@
 #include "config.h"
 #include<cstdlib>
 
-int count = 42;
+auto count(42);
 
 auto main(int argc, char **argv) -> int
 {
