@@ -1,7 +1,7 @@
 #include <fmt/chrono.h>
 #include <fmt/format.h>
 
-<<<<<<< HEAD
+
 #include "vectorint.hpp"
 
 
@@ -66,4 +66,3 @@ auto main(int argc, char **argv) -> int
 
     return 0; /* exit gracefully*/
 }
->>>>>>> solution-003

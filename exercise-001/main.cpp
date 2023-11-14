@@ -21,11 +21,9 @@ auto main(int argc, char **argv) -> int
     try
     {
         app.set_version_flag("-V,--version", fmt::format("{} {}", PROJECT_VER, PROJECT_BUILD_DATE));
-<<<<<<< HEAD
-        app.add_option("-c, --count", count);
-=======
+
         app.add_option("-c,--count", count, fmt::format("The amount of elements in our vector default: {}", count));
->>>>>>> solution-003
+
         app.parse(argc, argv);
 
         srand((unsigned) time(NULL));
